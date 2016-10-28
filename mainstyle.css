@@ -15,3 +15,26 @@ a{
 	text-align: center;
 	margin: 0 auto;
 }
+
+.element {
+	-webkit-animantion: pulse 2s infinite;
+	animation: pulse 2s infinite;
+}
+
+@-webkit-keyframes pulse {
+	0%, 100% {
+		background-color: powderblue;
+	}
+	50% {
+		background-color: #FF0000
+	}
+}
+
+@keyframes pulse {
+	0%, 100% {
+		background-color: powderblue;
+	}
+	50% {
+		background-color: #FF0000
+	}
+}

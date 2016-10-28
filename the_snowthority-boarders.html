@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Boarders - The Snowthority</title>
+		<script>
+		 function CraigBio (theButtonClicked){
+			document.getElementById("result_display").innerHTML =
+				"<p>(April 1, 1966 - January 20, 2003) is known as the 'Godfather of Freeriding.'"+
+			  "Has been referred to as the best snowboarder of all time. Shocked the world when he turned down million dollar deals to pursue freeriding.</p>"
+			}
+		  function JohanBio (theButtonClicked){
+			document.getElementById("result_display2").innerHTML = 
+			"<p>(born October 27, 1976) Known for being one of the first riers to take freestye tricks more commonly performed in man-made"+
+			  " terrain parks into the big mountain freeriding environments of Alaska.</p>"
+			}
+		  function JeremyBio (theButtonClicked){
+			document.getElementById("result_display3").innerHTML = 
+			"<p>(born 14 January 1975) is a former snowboard racer now regarded as a pioneer of professional big mountain riding."+
+			  " His style is a seminal influence on modern big mountain freeriding."
+		  }
+		  function TravisBio(theButtonClicked){
+		      document.getElementById("result_display4").innerHTML =
+			  "<p>(born October 9, 1982) is regarded as the 'Paul Revere' of the big mountain freestyle movement."+
+			  "Best known for his success in the realm of freestyle snowboarding competition,"+
+			  "his ability to adapt his skills to extreme terrain has gained him legendary status in backcountry circles as well."
+		}
+		
+		</script>
+		
+		<link rel="stylesheet" href="mainstyle.css">
+	</head>
+	
+	<body>
+		<section>
+			<img src="craigkelly.jpg" alt="Craig Kelly" style="width:215px;height:245px;">
+		<h2>Craig Kelly</h2>
+			<button onclick= "CraigBio ()">Bio</button>
+			<section id="result_display"></section>
+			
+			<p><img src="johanolofsson.jpg" alt="Johan Olofsson" style="width:245px;height:195px;"></p>
+		<h3>Johan Olofsson</h3> 
+			<button onclick= "JohanBio ()">Bio</button>
+			<section id="result_display2"></section>
+			
+			<p><img src="jeremyjones.jpg" alt="Jeremy Jones" style="width:245px;height:195px;"></p>
+		<h4>Jeremy Jones</h4>
+			<button onclick= "JeremyBio ()">Bio</button>
+			<section id="result_display3"></section>
+			
+			<p><img src="travisrice.jfif" alt="Travis Rice" style="width:205px;height245px;"></p>
+		<h5>Travis Rice</h5>
+			<button onclick= "TravisBio ()">Bio</button>
+			<section id="result_display4"></section>
+	  
+	
+	</body>
+	
+</html>
